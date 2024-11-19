@@ -25,6 +25,10 @@ header{
 .top-header .top-header-right div{
    margin: 0 20px;
 }
+.top-header .top-header-right div span{
+   color: rgb(0, 255, 255);
+   font-size: 20px;
+ }
 .top-header .top-header-right div h3{
     color: white;
     font-size: 17px;
