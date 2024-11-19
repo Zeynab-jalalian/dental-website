@@ -65,3 +65,18 @@ header {
     color: rgba(0, 0, 0, 0.6);
     font-size: 14px;
 }
+header .nav-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+}
+header .nav-header .social span{
+    color: rgb(0, 162, 255);
+    margin: 0 5px;
+    cursor: pointer;
+}
+header .nav-header .social span:hover{
+   transform: scale(1.2);
+}
