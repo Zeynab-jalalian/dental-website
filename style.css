@@ -22,6 +22,17 @@ header{
     justify-content: center;
     align-items: center;
 }
+.top-header .top-header-right  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .top-header .top-header-right  div div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+     }
 .top-header .top-header-right div{
    margin: 0 20px;
 }
@@ -29,12 +40,12 @@ header{
    color: rgb(0, 255, 255);
    font-size: 20px;
  }
-.top-header .top-header-right div h3{
+.top-header .top-header-right div div h3{
     color: white;
     font-size: 17px;
     margin-bottom: 10px;
 }
-.top-header .top-header-right div p{
+.top-header .top-header-right div div p{
     color: rgba(255, 255, 255, 0.9);
     font-size: 14px;
 }
