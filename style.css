@@ -38,8 +38,12 @@ header{
 }
 .top-header .top-header-right div span{
    color: rgb(0, 255, 255);
-   font-size: 20px;
+   font-size: 23px;
+   cursor: pointer;
  }
+ .top-header .top-header-right div span:hover{
+   transform: scale(1.2);
+  }
 .top-header .top-header-right div div h3{
     color: white;
     font-size: 17px;
