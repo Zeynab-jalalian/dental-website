@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 100%;
+    height: 100%;
+}
+.top-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.top-header .top-header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-header .top-header-right div{
+   margin: 0 20px;
+}
