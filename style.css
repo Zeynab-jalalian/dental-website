@@ -14,6 +14,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background: skyblue;
+   /* border-bottom: 1px solid rgba(255, 255, 255, 0.5); */
 }
 .top-header .top-header-right{
     display: flex;
@@ -22,4 +24,13 @@ header{
 }
 .top-header .top-header-right div{
    margin: 0 20px;
+}
+.top-header .top-header-right div h3{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.top-header .top-header-right div p{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
 }
