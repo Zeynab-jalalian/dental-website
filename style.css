@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 header {
     width: 100%;
     height: 100vh;
@@ -79,4 +84,21 @@ header .nav-header .social span{
 }
 header .nav-header .social span:hover{
    transform: scale(1.2);
+}
+header .nav-header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav-header ul li{
+   margin: 0 10px;
+   border-bottom: 3px solid transparent;
+}
+header .nav-header ul li a{
+    color: white;
+    font-size: 14px;
+    font-weight: 800;
+}
+header .nav-header ul li:hover{
+    border-bottom: 3px solid rgb(0, 162, 255);
 }
