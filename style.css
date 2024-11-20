@@ -151,5 +151,7 @@ header .top-header .top-header-right div div p {
 }
 }
 @media(max-wiidth:900px){
-    
+    header .content-header p {
+        max-width: 500px;
+    }
 }
