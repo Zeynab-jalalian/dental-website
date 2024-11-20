@@ -146,4 +146,7 @@ header .content-header a:hover{
 header .top-header .top-header-right div div h3 {
    font-size: 14px;
 }
+header .top-header .top-header-right div div p {
+    font-size: 12px;
+}
 }
