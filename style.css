@@ -133,3 +133,7 @@ background: rgb(0, 255, 234);
 header .content-header a:nth-child(2){
     background: rgb(0, 81, 255);
 }
+header .content-header a:hover{
+    background: white;
+    color: blue;
+}
