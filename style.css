@@ -107,7 +107,7 @@ header .content-header{
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    padding: 50px;
+    padding:100px 50px 0;
 }
 header .content-header h1{
     color: white;
