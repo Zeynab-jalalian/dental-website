@@ -102,3 +102,20 @@ header .nav-header ul li a{
 header .nav-header ul li:hover{
     border-bottom: 3px solid rgb(0, 162, 255);
 }
+header .content-header{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 50px;
+}
+header .content-header h1{
+    color: white;
+    max-width: 200px;
+}
+header .content-header p{
+    color: white;
+    max-width: 700px;
+    margin: 10px 0;
+    line-height: 25px;
+}
