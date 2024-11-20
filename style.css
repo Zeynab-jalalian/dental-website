@@ -158,3 +158,8 @@ header .top-header .top-header-right div div p {
         margin: 0 10px;
     }
 }
+@media(max-width:720px){
+    .top-header .top-header-left img{
+        width: 50px;
+    }
+}
