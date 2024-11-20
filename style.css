@@ -171,3 +171,8 @@ header .top-header .top-header-right div div p {
         width: 100px;
     }
 }
+@media(max-width:350px){
+    .top-header{
+        flex-direction: column;
+    }
+}
