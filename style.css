@@ -150,7 +150,7 @@ header .top-header .top-header-right div div p {
     font-size: 12px;
 }
 }
-@media(max-wiidth:900px){
+@media(max-width:900px){
     header .content-header p {
         max-width: 500px;
     }
