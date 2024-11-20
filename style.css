@@ -163,3 +163,11 @@ header .top-header .top-header-right div div p {
         width: 50px;
     }
 }
+@media(max-width:650px){
+    .top-header .top-header-right div div {
+        display: none;
+    }
+    .top-header .top-header-left img{
+        width: 100px;
+    }
+}
