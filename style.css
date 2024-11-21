@@ -245,3 +245,22 @@ header .top-header .top-header-right div div p {
         height: 100%;
     }
 }
+@media(max-width:260px){
+    header .content-header p {
+        font-size: 10px;
+    }
+    header .content-header h1 {
+        font-size: 20px;
+    }
+    header .content-header a {
+        font-size: 12px;
+    }
+}
+@media(max-width:240px){
+    header .content-header p {
+      display: none;
+    }
+    header{
+        height: 100vh;
+    }
+}
