@@ -221,4 +221,12 @@ header .top-header .top-header-right div div p {
         max-width: 300px;
         text-align: center;
     }
+    header .content-header p {
+        text-align: center;
+    }
+}
+@media(max-width:500px){
+    header .content-header p {
+        font-size: 12px;
+    }
 }
