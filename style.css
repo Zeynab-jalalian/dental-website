@@ -230,3 +230,15 @@ header .top-header .top-header-right div div p {
         font-size: 12px;
     }
 }
+@media(max-width:450px){
+    header .content-header a{
+        display:block;
+        text-align: center;
+    }
+    header .content-header{
+        padding: 50px;
+    }
+    header{
+        height: 100%;
+    }
+}
