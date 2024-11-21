@@ -204,5 +204,21 @@ header .top-header .top-header-right div div p {
     }
 }
 @media(max-width:210px){
-    
+    header .nav-header .social span {
+        color: rgb(0, 162, 255);
+        margin: 0 5px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+}
+@media(max-width:600px){
+    header .content-header {
+        justify-content: center;
+        align-items: center;
+    }
+    header .content-header h1 {
+        color: white;
+        max-width: 300px;
+        text-align: center;
+    }
 }
