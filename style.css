@@ -238,6 +238,9 @@ header .content-header a:hover {
 }
 .team .content-team{
     padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .team .content-team h5{
     color: #262626;
