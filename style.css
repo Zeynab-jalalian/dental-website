@@ -410,3 +410,8 @@ header .content-header a:hover {
         height: 100vh;
     }
 }
+@media(max-width:860px){
+    .team .content-team h1 {
+        font-size: 23px;
+    }
+}
