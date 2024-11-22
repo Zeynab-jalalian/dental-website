@@ -239,7 +239,7 @@ header .content-header a:hover {
 .team .content-team{
     padding: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .team .content-team h5{
