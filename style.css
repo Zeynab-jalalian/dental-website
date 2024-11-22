@@ -415,3 +415,37 @@ header .content-header a:hover {
         font-size: 23px;
     }
 }
+@media(max-width:760px){
+    .team .content-team {
+        flex-direction: column-reverse;
+    }
+    .team .content-team div{
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .team .content-team p {
+        text-align: center;
+    }
+    .team .content-team h1{
+        text-align: center;
+    }
+    .team .content-team h5{
+        text-align: center;
+    }
+}
+@media(max-width:400px){
+    .team .content-team p {
+        font-size: 10px;
+    }
+    .team .content-team{
+        padding: 50px;
+    }
+}
+@media(max-width:310px){
+    .team .content-team div #doc{
+     width: 200px;
+    }
+}
