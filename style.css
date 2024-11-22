@@ -170,12 +170,17 @@ header .content-header a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .team .options .option {
-    width: 500px;
-    height: 250px;
+    width: 25%;
+    height: 300px;
     padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
 }
 
 .team .options .option h3 {
@@ -188,7 +193,7 @@ header .content-header a:hover {
     margin: 10px 0 30px;
     font-size: 12px;
     max-width: 200px;
-    height: 50px;
+    height: 100px;
 }
 
 .team .options .option a {
