@@ -449,3 +449,8 @@ header .content-header a:hover {
      width: 200px;
     }
 }
+@media(max-width:260px){
+    .team .content-team p {
+        font-size: 8px;
+    }
+}
