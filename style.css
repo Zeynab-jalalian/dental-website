@@ -177,6 +177,18 @@ header .content-header a:hover{
     padding: 8px 12px;
     font-size: 12px;
  }
+ .team .options .option:first-child{
+    background: rgb(0, 225, 255,1);
+ }
+ .team .options .option:nth-child(2){
+    background: rgb(0, 164, 185);
+ }
+ .team .options .option:nth-child(3){
+    background: rgb(0, 128, 145);
+ }
+ .team .options .option:nth-child(4){
+    background: rgb(0, 95, 107);
+ }
 /* Responsive */
 @media(max-width:1100px){
 header .top-header .top-header-right div div h3 {
