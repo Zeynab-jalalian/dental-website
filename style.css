@@ -193,15 +193,15 @@ header .content-header a:hover {
     height: 100%;
     background: #d3d3d3;
 }
-.dentists .card h3{
+.dentists .card .card-text h3{
     color: white;
     font-size: 14px;
 }
-.dentists .card h1{
+.dentists .card .card-text h1{
     color: white;
     font-size: 20px;
 }
-.dentists .card p{
+.dentists .card .card-text p{
     color: white;
     max-width: 200px;
     font-size: 14px;
@@ -210,7 +210,7 @@ header .content-header a:hover {
     color: white;
     font-size: 14px;
     border: 1px solid rgba(255,255,255,0.7);
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
 }
 /* Responsive */
