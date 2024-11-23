@@ -213,6 +213,7 @@ header .content-header a:hover {
     color: white;
     max-width: 200px;
     font-size: 14px;
+    line-height: 15px;
 }
 .dentists .card .card-icons span{
     color: white;
@@ -242,6 +243,14 @@ header .content-header a:hover {
    background: white;
    color: blue;
    border: 1px solid blue;
+}
+.dentists .card .card-text h1{
+    margin: 10px 0;
+}
+.dentists .card .card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Responsive */
 @media(max-width:1100px) {
