@@ -318,6 +318,9 @@ header .content-header a:hover {
     header .nav-header ul {
         margin: 20px 0;
     }
+    .dentists .card {
+        width: 60%;
+    }
 }
 
 @media(max-width:510px) {
@@ -370,8 +373,18 @@ header .content-header a:hover {
     header .content-header p {
         font-size: 12px;
     }
+    .dentists .card {
+        width: 100%;
+    }
+    .dentists{
+        padding: 50px;
+    }
 }
-
+@media(max-width:550px){
+    .dentists .card {
+        width: 80%;
+    }
+}
 @media(max-width:450px) {
     header .content-header a {
         display: block;
