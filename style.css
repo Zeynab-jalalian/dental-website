@@ -199,7 +199,7 @@ header .content-header a:hover {
     padding: 100px;
 }
 .dentists .card{
-    margin: 0 10px;
+    margin:  10px;
 }
 .dentists .card .card-text h3{
     color: white;
@@ -262,7 +262,16 @@ header .content-header a:hover {
         font-size: 12px;
     }
 }
-
+@media(max-width:1260px){
+    .dentists .card {
+        width: calc(25% - 20px);
+    }
+}
+@media(max-width:1000px){
+    .dentists .card {
+        width: calc(50% - 20px);
+    }
+}
 @media(max-width:900px) {
     header .content-header p {
         max-width: 500px;
