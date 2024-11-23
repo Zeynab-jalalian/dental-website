@@ -226,11 +226,11 @@ header .content-header a:hover {
     background: #8d8d8d;
 }
 .dentists .card .card-text{
-    background: rgb(0, 68, 255);
+    background: rgb(0 95 105);
     padding: 20px;
 }
 .dentists .card .card-icons{
-    background: rgb(0, 68, 255);
+    background: rgb(0 95 105);
     padding: 20px;
     display: flex;
     justify-content: end;
@@ -241,8 +241,8 @@ header .content-header a:hover {
 }
 .dentists .card .card-icons span:hover{
    background: white;
-   color: blue;
-   border: 1px solid blue;
+   color: rgb(0 95 105);
+   border: 1px solid rgb(0 95 105);
 }
 .dentists .card .card-text h1{
     margin: 10px 0;
