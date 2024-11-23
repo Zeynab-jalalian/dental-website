@@ -496,4 +496,7 @@ header .content-header a:hover {
     .dentists .card .card-img img{
         width: 100px;
     }
+    .dentists{
+        padding: 1px;
+    }
 }
