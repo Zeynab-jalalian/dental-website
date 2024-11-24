@@ -261,12 +261,16 @@ header .content-header a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 .client .client-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.client .client-content p{
+    color: #262626;
 }
 /* Responsive */
 @media(max-width:1100px) {
