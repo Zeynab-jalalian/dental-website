@@ -259,6 +259,14 @@ header .content-header a:hover {
     background: #eee;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.client .client-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* Responsive */
 @media(max-width:1100px) {
