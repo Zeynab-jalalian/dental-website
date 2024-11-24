@@ -272,6 +272,12 @@ header .content-header a:hover {
 .client .client-content p{
     color: #262626;
 }
+.client .client-content h1{
+    margin: 30px 0;
+}
+.client .client-content h1 span{
+    color: rgb(0, 183, 255);
+}
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
