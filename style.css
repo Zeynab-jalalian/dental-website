@@ -278,7 +278,35 @@ header .content-header a:hover {
 .client .client-content h1 span{
     color: rgb(0, 183, 255);
 }
-
+.client .client-members{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.client .client-members .member{
+   width: calc(50%);
+   height: 100%;
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.client .client-members .member:nth-child(1){
+  background: rgb(0, 225, 255);
+ }
+ .client .client-members .member:nth-child(2){
+    background: rgb(0, 183, 255);
+   }
+   .client .client-members .member:nth-child(3){
+    background: rgb(0, 174, 255);
+   }
+   .client .client-members .member:nth-child(4){
+      background: rgb(0, 140, 255);
+     }
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
