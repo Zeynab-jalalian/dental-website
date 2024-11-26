@@ -188,7 +188,7 @@ header .content-header a:hover {
 }
 
 
-.dentists{
+.dentists {
     width: 100%;
     height: 100%;
     background: #d3d3d3;
@@ -198,62 +198,74 @@ header .content-header a:hover {
     flex-wrap: wrap;
     padding: 100px;
 }
-.dentists .card{
-    margin:  10px;
+
+.dentists .card {
+    margin: 10px;
 }
-.dentists .card .card-text h3{
+
+.dentists .card .card-text h3 {
     color: white;
     font-size: 14px;
 }
-.dentists .card .card-text h1{
+
+.dentists .card .card-text h1 {
     color: white;
     font-size: 20px;
 }
-.dentists .card .card-text p{
+
+.dentists .card .card-text p {
     color: white;
     max-width: 200px;
     font-size: 14px;
     line-height: 15px;
 }
-.dentists .card .card-icons span{
+
+.dentists .card .card-icons span {
     color: white;
     font-size: 14px;
-    border: 1px solid rgba(255,255,255,0.7);
+    border: 1px solid rgba(255, 255, 255, 0.7);
     padding: 5px;
     border-radius: 50%;
 }
-.dentists .card .card-img{
+
+.dentists .card .card-img {
     background: #8d8d8d;
 }
-.dentists .card .card-text{
+
+.dentists .card .card-text {
     background: rgb(0 95 105);
     padding: 20px;
 }
-.dentists .card .card-icons{
+
+.dentists .card .card-icons {
     background: rgb(0 95 105);
     padding: 20px;
     display: flex;
     justify-content: end;
 }
-.dentists .card .card-icons span{
- margin:0 5px;
- cursor: pointer;
+
+.dentists .card .card-icons span {
+    margin: 0 5px;
+    cursor: pointer;
 }
-.dentists .card .card-icons span:hover{
-   background: white;
-   color: rgb(0 95 105);
-   border: 1px solid rgb(0 95 105);
+
+.dentists .card .card-icons span:hover {
+    background: white;
+    color: rgb(0 95 105);
+    border: 1px solid rgb(0 95 105);
 }
-.dentists .card .card-text h1{
+
+.dentists .card .card-text h1 {
     margin: 10px 0;
 }
+
 .dentists .card .card-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.client{
+.client {
     width: 100%;
     height: 100%;
     background: #eee;
@@ -263,22 +275,27 @@ header .content-header a:hover {
     align-items: center;
     padding: 100px;
 }
-.client .client-content{
+
+.client .client-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.client .client-content p{
+
+.client .client-content p {
     color: #262626;
 }
-.client .client-content h1{
+
+.client .client-content h1 {
     margin: 30px 0;
 }
-.client .client-content h1 span{
+
+.client .client-content h1 span {
     color: rgb(0, 183, 255);
 }
-.client .client-members{
+
+.client .client-members {
     width: 80%;
     height: 100%;
     margin: auto;
@@ -287,33 +304,43 @@ header .content-header a:hover {
     align-items: center;
     flex-wrap: wrap;
 }
-.client .client-members .member{
-   width: calc(50%);
-   height: 100%;
-   padding: 50px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+.client .client-members .member {
+    width: calc(50%);
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.client .client-members .member:nth-child(1){
-  background: rgb(0, 225, 255);
- }
- .client .client-members .member:nth-child(2){
+
+.client .client-members .member:nth-child(1) {
+    background: rgb(0, 225, 255);
+}
+
+.client .client-members .member:nth-child(2) {
     background: rgb(0, 183, 255);
-   }
-   .client .client-members .member:nth-child(3){
+}
+
+.client .client-members .member:nth-child(3) {
     background: rgb(0, 174, 255);
-   }
-   .client .client-members .member:nth-child(4){
-      background: rgb(0, 140, 255);
-     }
-     .client .client-members .member p{
-        margin-left: 10px;
+}
+
+.client .client-members .member:nth-child(4) {
+    background: rgb(0, 140, 255);
+}
+
+.client .client-members .member p {
+    margin-left: 10px;
     color: white;
     font-size: 14px;
     line-height: 20px;
     padding: 10px;
-     }
+}
+.client .client-members .member h6{
+    color: white;
+    margin: 10px 0;
+}
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
@@ -324,16 +351,19 @@ header .content-header a:hover {
         font-size: 12px;
     }
 }
-@media(max-width:1260px){
+
+@media(max-width:1260px) {
     .dentists .card {
         width: calc(25% - 20px);
     }
 }
-@media(max-width:1000px){
+
+@media(max-width:1000px) {
     .dentists .card {
         width: calc(50% - 20px);
     }
 }
+
 @media(max-width:900px) {
     header .content-header p {
         max-width: 500px;
@@ -368,15 +398,19 @@ header .content-header a:hover {
     header .content-header h1 {
         font-size: 24px;
     }
+
     .dentists {
         padding: 5px;
     }
+
     .dentists .card .card-text p {
         font-size: 12px;
     }
+
     .dentists .card .card-text h1 {
         font-size: 16px;
     }
+
     .dentists .card .card-text h3 {
         font-size: 12px;
     }
@@ -392,6 +426,7 @@ header .content-header a:hover {
     header .nav-header ul {
         margin: 20px 0;
     }
+
     .dentists .card {
         width: 60%;
     }
@@ -447,18 +482,22 @@ header .content-header a:hover {
     header .content-header p {
         font-size: 12px;
     }
+
     .dentists .card {
         width: 100%;
     }
-    .dentists{
+
+    .dentists {
         padding: 50px;
     }
 }
-@media(max-width:550px){
+
+@media(max-width:550px) {
     .dentists .card {
         width: 80%;
     }
 }
+
 @media(max-width:450px) {
     header .content-header a {
         display: block;
@@ -551,14 +590,17 @@ header .content-header a:hover {
         font-size: 8px;
     }
 }
-@media(max-width:300px){
+
+@media(max-width:300px) {
     .dentists .card .card-icons {
         justify-content: center;
     }
-    .dentists .card .card-img img{
+
+    .dentists .card .card-img img {
         width: 100px;
     }
-    .dentists{
+
+    .dentists {
         padding: 1px;
     }
 }
