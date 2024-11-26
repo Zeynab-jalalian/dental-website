@@ -294,6 +294,7 @@ header .content-header a:hover {
    display: flex;
    justify-content: center;
    align-items: center;
+   flex-wrap: wrap;
 }
 .client .client-members .member:nth-child(1){
   background: rgb(0, 225, 255);
