@@ -374,7 +374,6 @@ header .content-header a:hover {
         width: calc(25% - 20px);
     }
 }
-
 @media(max-width:1000px) {
     .dentists .card {
         width: calc(50% - 20px);
@@ -383,7 +382,6 @@ header .content-header a:hover {
         padding: 50px;
     }
 }
-
 @media(max-width:900px) {
     header .content-header p {
         max-width: 500px;
@@ -391,6 +389,9 @@ header .content-header a:hover {
 
     .top-header .top-header-right div {
         margin: 0 10px;
+    }
+    .client .client-members .member {
+        flex-direction: column;
     }
 }
 
