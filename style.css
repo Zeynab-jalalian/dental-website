@@ -563,6 +563,9 @@ header .content-header a:hover {
     header .content-header a {
         font-size: 12px;
     }
+    .team .content-team p {
+        font-size: 8px;
+    }
 }
 
 @media(max-width:240px) {
@@ -618,6 +621,9 @@ header .content-header a:hover {
     .client .client-members .member p{
         display: none;
     }
+    .client .client-content h1 {
+        text-align: center;
+    }
 }
 
 @media(max-width:310px) {
@@ -625,13 +631,6 @@ header .content-header a:hover {
         width: 200px;
     }
 }
-
-@media(max-width:260px) {
-    .team .content-team p {
-        font-size: 8px;
-    }
-}
-
 @media(max-width:300px) {
     .dentists .card .card-icons {
         justify-content: center;
@@ -643,5 +642,12 @@ header .content-header a:hover {
 
     .dentists {
         padding: 1px;
+    }
+    
+}
+@media(max-width:250px){
+    .client .client-members .member img {
+        width: 70px;
+        height: 70px;
     }
 }
