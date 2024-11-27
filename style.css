@@ -393,8 +393,16 @@ header .content-header a:hover {
     .client .client-members .member {
         flex-direction: column;
     }
+    .client .client-members .member p {
+        text-align: center;
+    }
 }
-
+@media(max-width:700px){
+    .client .client-members .member{
+        width: 100%;
+        flex-direction: row;
+    }
+}
 @media(max-width:720px) {
     .top-header .top-header-left img {
         width: 50px;
