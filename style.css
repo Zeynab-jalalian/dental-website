@@ -334,7 +334,6 @@ header .content-header a:hover {
     margin-left: 10px;
     color: white;
     font-size: 14px;
-    line-height: 20px;
     padding: 10px;
 }
 .client .client-members .member h6{
@@ -364,7 +363,11 @@ header .content-header a:hover {
         font-size: 12px;
     }
 }
-
+@media(max-width:1200px){
+    .client .client-members{
+        width: 100%;
+    }
+}
 @media(max-width:1260px) {
     .dentists .card {
         width: calc(25% - 20px);
