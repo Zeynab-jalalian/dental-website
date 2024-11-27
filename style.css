@@ -615,6 +615,9 @@ header .content-header a:hover {
     .team .content-team {
         padding: 50px;
     }
+    .client .client-members .member p{
+        display: none;
+    }
 }
 
 @media(max-width:310px) {
