@@ -379,6 +379,9 @@ header .content-header a:hover {
     .dentists .card {
         width: calc(50% - 20px);
     }
+    .client{
+        padding: 50px;
+    }
 }
 
 @media(max-width:900px) {
