@@ -334,6 +334,7 @@ header .content-header a:hover {
     margin-left: 10px;
     color: white;
     font-size: 14px;
+    line-height: 20px;
     padding: 10px;
 }
 .client .client-members .member h6{
