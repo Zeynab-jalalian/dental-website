@@ -519,6 +519,15 @@ header .content-header a:hover {
     .dentists {
         padding: 50px;
     }
+    .client .client-members .member {
+        flex-direction: column;
+    }
+    .client .client-content h1 {
+        font-size: 23px;
+    }
+    .client .client-content p {
+        font-size: 13px;
+    }
 }
 
 @media(max-width:550px) {
