@@ -447,8 +447,16 @@ header .content-header a:hover {
     color: #535353;
     max-width: 300px;
   }
-
-
+.s-services .s-box{
+    width: 300px;
+    margin: 10px 5px;
+   
+}
+.s-services .s-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 
 
