@@ -446,6 +446,9 @@ header .content-header a:hover {
         width: 100%;
         flex-direction: row;
     }
+    .client-nav .c-v-l h1 {
+        font-size: 14px;
+    }
 }
 
 @media(max-width:720px) {
@@ -516,6 +519,9 @@ header .content-header a:hover {
     header .nav-header ul li a {
         font-size: 10px;
     }
+    .client-nav{
+        padding: 20px;
+    }
 }
 
 @media(max-width:420px) {
@@ -549,6 +555,10 @@ header .content-header a:hover {
 
     header .content-header p {
         text-align: center;
+    }
+    .client-nav .c-v-l h1 {
+        max-width: 200px;
+        line-height: 20px;
     }
 }
 
@@ -673,6 +683,18 @@ header .content-header a:hover {
     }
 
     .client .client-content h1 {
+        text-align: center;
+    }
+    .client-nav{
+        flex-direction: column;
+    }
+    .client-nav div{
+        margin: 15px auto;
+    }
+    .client-nav .c-v-l h1 {
+        text-align: center;
+    }
+    .client-nav .c-v-l p{
         text-align: center;
     }
 }
