@@ -357,7 +357,8 @@ header .content-header a:hover {
     align-items: center;
     flex-direction: column;
 }
-.client-nav{
+
+.client-nav {
     width: 100%;
     height: 100%;
     background: rgb(17, 56, 128);
@@ -366,17 +367,29 @@ header .content-header a:hover {
     justify-content: space-between;
     align-items: center;
 }
-.client-nav .c-v-r a{
-        text-decoration: none;
-        color: black;
-        background: wheat;
-        padding: 10px 15px;
-        font-size: 15px;
+
+.client-nav .c-v-r a {
+    text-decoration: none;
+    color: black;
+    background: wheat;
+    padding: 10px 15px;
+    font-size: 15px;
 }
-.client-nav .c-v-r a:hover{
-   color: white;
-   background: rgb(4, 0, 255);
+
+.client-nav .c-v-r a:hover {
+    color: white;
+    background: rgb(4, 0, 255);
 }
+.client-nav .c-v-l p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.client-nav .c-v-l h1 {
+    color: white;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
