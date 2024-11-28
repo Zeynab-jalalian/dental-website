@@ -366,6 +366,13 @@ header .content-header a:hover {
     justify-content: space-between;
     align-items: center;
 }
+.client-nav .c-v-r a{
+        text-decoration: none;
+        color: black;
+        background: wheat;
+        padding: 10px 15px;
+        font-size: 15px;
+}
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
