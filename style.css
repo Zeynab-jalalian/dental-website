@@ -337,23 +337,27 @@ header .content-header a:hover {
     line-height: 20px;
     padding: 10px;
 }
-.client .client-members .member h6{
+
+.client .client-members .member h6 {
     color: white;
     margin: 10px 0;
 }
-.client .client-members .member img{
+
+.client .client-members .member img {
     object-fit: cover;
     border: 1px solid #fff;
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
-.client .client-members .member div{
+
+.client .client-members .member div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
@@ -364,24 +368,29 @@ header .content-header a:hover {
         font-size: 12px;
     }
 }
-@media(max-width:1200px){
-    .client .client-members{
+
+@media(max-width:1200px) {
+    .client .client-members {
         width: 100%;
     }
 }
+
 @media(max-width:1260px) {
     .dentists .card {
         width: calc(25% - 20px);
     }
 }
+
 @media(max-width:1000px) {
     .dentists .card {
         width: calc(50% - 20px);
     }
-    .client{
+
+    .client {
         padding: 50px;
     }
 }
+
 @media(max-width:900px) {
     header .content-header p {
         max-width: 500px;
@@ -390,19 +399,23 @@ header .content-header a:hover {
     .top-header .top-header-right div {
         margin: 0 10px;
     }
+
     .client .client-members .member {
         flex-direction: column;
     }
+
     .client .client-members .member p {
         text-align: center;
     }
 }
-@media(max-width:700px){
-    .client .client-members .member{
+
+@media(max-width:700px) {
+    .client .client-members .member {
         width: 100%;
         flex-direction: row;
     }
 }
+
 @media(max-width:720px) {
     .top-header .top-header-left img {
         width: 50px;
@@ -519,12 +532,15 @@ header .content-header a:hover {
     .dentists {
         padding: 50px;
     }
+
     .client .client-members .member {
         flex-direction: column;
     }
+
     .client .client-content h1 {
         font-size: 23px;
     }
+
     .client .client-content p {
         font-size: 13px;
     }
@@ -563,6 +579,7 @@ header .content-header a:hover {
     header .content-header a {
         font-size: 12px;
     }
+
     .team .content-team p {
         font-size: 8px;
     }
@@ -618,9 +635,11 @@ header .content-header a:hover {
     .team .content-team {
         padding: 50px;
     }
-    .client .client-members .member p{
+
+    .client .client-members .member p {
         display: none;
     }
+
     .client .client-content h1 {
         text-align: center;
     }
@@ -631,6 +650,7 @@ header .content-header a:hover {
         width: 200px;
     }
 }
+
 @media(max-width:300px) {
     .dentists .card .card-icons {
         justify-content: center;
@@ -643,9 +663,10 @@ header .content-header a:hover {
     .dentists {
         padding: 1px;
     }
-    
+
 }
-@media(max-width:250px){
+
+@media(max-width:250px) {
     .client .client-members .member img {
         width: 70px;
         height: 70px;
