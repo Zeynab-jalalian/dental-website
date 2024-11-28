@@ -422,6 +422,36 @@ header .content-header a:hover {
 .services .s-content h1 span {
     color: rgb(0, 183, 255);
 }
+.s-services{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.s-services .s-box h3{
+  color: #535353;
+  font-weight: 900;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.s-services .s-box h1{
+    font-weight: 900;
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+  .s-services .s-box p{
+    color: #535353;
+    max-width: 300px;
+  }
+
+
+
+
+
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
