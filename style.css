@@ -373,6 +373,10 @@ header .content-header a:hover {
         padding: 10px 15px;
         font-size: 15px;
 }
+.client-nav .c-v-r a:hover{
+   color: white;
+   background: rgb(4, 0, 255);
+}
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
