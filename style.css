@@ -492,16 +492,16 @@ footer .brand-footer p{
    font-size: 14px;
    line-height: 25px;
 }
-footer .news-footer{
+footer .comments-footer{
     color: white;
 }
-footer .news-footer p{
+footer .comments-footer p{
     margin: 10px 0;
     display: block;
     margin: 10px 0;
     max-width: 200px;
 }
-footer .news-footer h1{
+footer .comments-footer h1{
     font-size: 22px;
     margin-bottom: 10px;
 }
