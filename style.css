@@ -787,7 +787,15 @@ header .content-header a:hover {
     .dentists {
         padding: 1px;
     }
-
+    .s-services .s-box h1 {
+        font-size: 18px;
+    }
+    .s-services .s-box h3 {
+        font-size: 12px;
+    }
+    .s-services .s-box p {
+        font-size: 12px;
+    }
 }
 
 @media(max-width:250px) {
