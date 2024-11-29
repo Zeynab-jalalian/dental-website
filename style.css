@@ -463,7 +463,7 @@ header .content-header a:hover {
     align-items: center;
 }
 .map iframe{
-    width: 80%;
+    width: 100%;
     height: 500px;
     border-radius: 15px;
 }
