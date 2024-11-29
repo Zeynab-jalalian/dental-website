@@ -478,10 +478,10 @@ footer{
 }
 footer div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: start;
     flex-direction: column;
-    margin: 0 10px;
+    margin:10px;
 }
 footer .brand-footer h1{
     color: white;
@@ -541,7 +541,7 @@ footer .news-footer .news div p{
 footer .news-footer .news div h3{
     color: white;
     font-size: 14px;
-    max-width: 300px;
+    max-width: 200px;
 }
 /* Responsive */
 @media(max-width:1100px) {
