@@ -474,6 +474,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: start;
+    flex-wrap: wrap;
 }
 footer div{
     display: flex;
@@ -519,7 +520,11 @@ footer .dc-footer ul li a{
 }
 footer .dc-footer ul li a:hover{
     color: blue;
-    transform: scale(1.5);
+}
+footer .news-footer h1{
+    color:white;
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 /* Responsive */
 @media(max-width:1100px) {
