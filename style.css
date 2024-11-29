@@ -457,7 +457,16 @@ header .content-header a:hover {
     height: 100%;
     object-fit: cover;
 }
-
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map iframe{
+    width: 80%;
+    height: 500px;
+    border-radius: 15px;
+}
 
 
 /* Responsive */
