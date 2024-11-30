@@ -494,6 +494,18 @@ header .content-header a:hover {
 .footer .footer-right ul li a:hover{
    color: #ffffff;
 }
+
+
+
+
+
+
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+}
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
