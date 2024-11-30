@@ -595,6 +595,9 @@ header .content-header a:hover {
     .dentists .card .card-text h3 {
         font-size: 12px;
     }
+    .footer .footer-left p {
+        text-align: center;
+    }
 }
 
 @media(max-width:700px) {
@@ -610,6 +613,9 @@ header .content-header a:hover {
 
     .dentists .card {
         width: 60%;
+    }
+    .footer .footer-left p {
+        font-size: 14px;
     }
 }
 
@@ -663,6 +669,15 @@ header .content-header a:hover {
     .client-nav .c-v-l h1 {
         max-width: 200px;
         line-height: 20px;
+    }
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer .footer-left p {
+        margin-bottom: 30px;
     }
 }
 
