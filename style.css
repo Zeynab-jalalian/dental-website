@@ -490,7 +490,7 @@ footer .brand-footer h1{
 footer .brand-footer p{
    color: white;
    max-width: 300px;
-   font-size: 14px;
+   font-size: 12px;
    line-height: 25px;
 }
 footer .comments-footer{
@@ -503,11 +503,11 @@ footer .comments-footer p{
     max-width: 200px;
 }
 footer .comments-footer h1{
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 footer .dc-footer h1{
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 10px;
     color: white;
 }
@@ -516,14 +516,14 @@ footer .dc-footer ul li{
 }
 footer .dc-footer ul li a{
    color: white;
-   font-size: 15px;
+   font-size: 12px;
 }
 footer .dc-footer ul li a:hover{
     color: blue;
 }
 footer .news-footer h1{
     color:white;
-    font-size: 22px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 footer .news-footer .news{
@@ -535,7 +535,7 @@ footer .news-footer .news{
 }
 footer .news-footer .news div p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 10px;
 }
 footer .news-footer .news div h3{
