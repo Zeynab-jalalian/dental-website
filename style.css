@@ -480,8 +480,20 @@ header .content-header a:hover {
     color: white;
     font-size: 16px;
 }
-
-
+.footer .footer-right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .footer-right ul li{
+    margin: 0 10px;
+}
+.footer .footer-right ul li a{
+    color: rgb(0 255 196);
+}
+.footer .footer-right ul li a:hover{
+   color: #ffffff;
+}
 /* Responsive */
 @media(max-width:1100px) {
     header .top-header .top-header-right div div h3 {
