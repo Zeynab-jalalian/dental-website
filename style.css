@@ -468,7 +468,7 @@ header .content-header a:hover {
 }
 
 .footer{
-    background: rgb(0 95 105);
+    background: rgb(0, 66, 73);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -505,6 +505,41 @@ footer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     padding: 20px;
+    background:rgb(0 95 105) ;
+}
+footer div{
+    margin: 0 20px;
+}
+footer div h1{
+ color: white;
+ margin-bottom: 10px;
+}
+footer div p{
+    color: white;
+    max-width: 200px;
+}
+footer  .dc-footer ul li{
+ margin: 10px 0;
+}
+footer  .dc-footer ul li a{
+    color: white;
+    font-size: 14px;
+}
+footer .dc-footer ul li a:hover{
+    color: #00ffea;
+}
+footer .news-footer .news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+footer .news-footer .news h3{
+    color: #fff;
+    font-size: 16px;
+}
+footer .news-footer .news p{
+    color: rgba(255, 255, 255, 0.5);
 }
 /* Responsive */
 @media(max-width:1100px) {
