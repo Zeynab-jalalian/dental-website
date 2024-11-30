@@ -508,7 +508,7 @@ footer{
     background:rgb(0 95 105) ;
 }
 footer div{
-    margin: 0 20px;
+    margin: 20px;
 }
 footer div h1{
  color: white;
@@ -571,6 +571,9 @@ footer .news-footer .news p{
 
     .client {
         padding: 50px;
+    }
+    footer {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -726,6 +729,12 @@ footer .news-footer .news p{
     .footer .footer-left p {
         margin-bottom: 30px;
     }
+    footer {
+        grid-template-columns: 1fr;
+    }
+    footer .news-footer .news {
+        margin: 20px;
+    }
 }
 
 @media(max-width:500px) {
@@ -808,7 +817,11 @@ footer .news-footer .news p{
         font-size: 23px;
     }
 }
-
+@media(max-width:750px){
+    footer .news-footer .news h3 {
+        font-size: 12px;
+    }
+}
 @media(max-width:760px) {
     .team .content-team {
         flex-direction: column-reverse;
@@ -866,6 +879,18 @@ footer .news-footer .news p{
     .map iframe {
         height: 200px;
     }
+    footer .news-footer .news {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    footer .news-footer .news div p,footer .news-footer .news div h3{
+        text-align: center;
+    }
+    footer .news-footer  h1{
+        text-align: center;
+    }
 }
 
 @media(max-width:310px) {
@@ -894,6 +919,17 @@ footer .news-footer .news p{
     }
     .s-services .s-box p {
         font-size: 12px;
+    }
+    footer div h1 {
+       font-size: 16px;
+    }
+    footer div p {
+        color: white;
+        max-width: 150px;
+        font-size: 12px;
+    }
+    footer div {
+        margin: 10px auto;
     }
 }
 
